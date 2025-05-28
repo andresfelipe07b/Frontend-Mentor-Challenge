@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    list-style: none;
+    text-decoration: none;
+    color:hsl(234, 29%, 20%);
+    line-height: 1.5;
+}
+
+body{
+    background: hsl(235, 18%, 26%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 900px;
+    gap:20px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    box-shadow:0 5px 15px rgba(0, 0, 0, 0.5)
+
+
+}
+.form-container {
+    padding: 30px 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+    .form-container h1{
+        font-size: 50px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+.list-container{
+    margin:20px 0 40px 0;
+}
+    .list-container li{
+        display: flex;
+        align-items: center;
+
+
+    }
+        .list-container li p{
+            margin:6px 0 6px 15px;
+        }
+        .list-container li img{
+            height: 18px;
+        }
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+}
+    .form-container form label{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom:7px;
+    }
+    .form-container form label span:first-child{
+        font-weight: bold;
+        font-size:14px;
+    }
+
+    .form-container form input{
+        padding: 0 20px;
+        height:50px;
+        border:1px solid hsl(0, 0%,58%);
+        border-radius:10px;
+        margin-bottom: 20px;
+
+    }
+
+    .form-container form button{
+        height:50px;
+        background:hsl(234, 29%, 20%);
+        color: hsl(0, 0%, 87%);
+        border:1px solid hsl(0, 0%,58%);
+        border-radius:10px;
+        font-weight: bold;
+        cursor:pointer;
+    }
+    .form-container form button:hover{
+        background: linear-gradient(to right, hsl(4, 100%, 67%), hsl(20, 100%, 60%));
+        box-shadow: 0 10px 20px rgba(255, 98, 87, 0.4);
+        transition: all 0.2s;
+        color: white;
+        border:1px solid #FF7733FF;
+
+    }
+
+.error-message {
+    font-size: 14px;
+    font-weight: bold;
+    color: hsl(4, 100%, 67%);
+    display: none;
+}
+.input-error {
+    border: 1px solid hsl(4, 100%, 67%);
+    background-color: hsl(4, 100%, 92%);
+    outline: none;
+    color: hsl(4, 100%, 67%);
+}
+
+.img-container{
+    padding: 15px;
+}
+
