@@ -23,7 +23,6 @@ Users should be able to:
 
 ### 🔗 Links
 
-- Solution URL: [View solution on Frontend Mentor](https://www.frontendmentor.io/solutions/your-solution)
 - Live Site URL: [View live site](https://your-site.com)
 
 
